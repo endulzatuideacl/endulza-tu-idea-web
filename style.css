@@ -1,32 +1,40 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background-color: #f8c6d8;
+  background-color: #ffffff;
+  color: #000000;
 }
+
 
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 20px 40px;
-  background-color: #ffffff;
+  background-color: #8e120b;
 }
+
 
 .logo {
   font-size: 22px;
   font-weight: bold;
-  color: #d63384;
+  color: #ffffff;
 }
 
 .nav a {
   margin-left: 20px;
   text-decoration: none;
-  color: #333333;
+  color: #ffffff;
   font-weight: 500;
 }
 
 .nav a:hover {
-  color: #d63384;
+  opacity: 0.8;
+}
+
+
+.nav a:hover {
+  opacity: 0.8;
 }
 
 main {
@@ -34,8 +42,8 @@ main {
 }
 
 .hero {
-  background-color: #d63384;
-  color: white;
+  background-color: #9f2f2e;
+  color: #ffffff;
   padding: 80px 40px;
   text-align: center;
 }
@@ -53,15 +61,17 @@ main {
 .btn {
   display: inline-block;
   padding: 12px 30px;
-  background-color: white;
-  color: #d63384;
+  background-color: #ffffff;
+  color: #8e120b;
   text-decoration: none;
   font-weight: bold;
   border-radius: 5px;
+  border: 2px solid #8e120b;
 }
 
 .btn:hover {
-  background-color: #f1f1f1;
+  background-color: #8e120b;
+  color: #ffffff;
 }
 
 .intro {
@@ -71,9 +81,10 @@ main {
 }
 
 .intro h2 {
-  color: #d63384;
+  color: #8e120b;
   margin-bottom: 20px;
 }
+
 
 .page {
   padding: 60px 40px;
@@ -82,7 +93,7 @@ main {
 }
 
 .page h1 {
-  color: #d63384;
+  color: #8e120b;
   margin-bottom: 20px;
 }
 
@@ -90,18 +101,17 @@ main {
   display: flex;
   gap: 20px;
   padding: 40px;
-  background-color: #f8c6d8;
+  background-color: #9f2f2e;
 }
 
-.service-card {
-  background-color: #ffffff;
-  padding: 30px;
-  border-radius: 8px;
-  flex: 1;
+.service-card h3,
+.page h1,
+.about-text h2 {
+  color: #8e120b;
 }
 
 .service-card h3 {
-  color: #d63384;
+  color: #ffffff;
   margin-bottom: 10px;
 }
 
@@ -118,17 +128,31 @@ main {
 }
 
 .about-text h2 {
-  color: #d63384;
+  color: #8e120b;
   margin-bottom: 20px;
 }
 
 .contact {
-  background-color: #f8c6d8;
+  background-color: #9f2f2e;
   padding: 60px 40px;
   text-align: center;
+  color: #ffffff;
 }
 
 .contact-info {
   margin-bottom: 30px;
   font-size: 16px;
 }
+
+.logo-img {
+  width: 48px;
+  height: auto;
+  display: block;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
