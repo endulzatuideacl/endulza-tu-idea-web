@@ -104,3 +104,20 @@ main {
   color: #d63384;
   margin-bottom: 10px;
 }
+
+.about {
+  background-color: #ffffff;
+  padding: 60px 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.about-text {
+  max-width: 700px;
+  text-align: center;
+}
+
+.about-text h2 {
+  color: #d63384;
+  margin-bottom: 20px;
+}
