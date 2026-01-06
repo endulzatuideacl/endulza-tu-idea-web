@@ -189,3 +189,77 @@ main {
   margin-bottom: 30px;
   font-size: 16px;
 }
+
+/* =========================
+   RESPONSIVE - CELULAR
+   ========================= */
+@media (max-width: 768px) {
+
+  /* Header */
+  .header {
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 20px;
+  }
+
+  .brand {
+    margin-bottom: 15px;
+  }
+
+  .logo-img {
+    width: 42px;
+  }
+
+  .logo {
+    font-size: 20px;
+  }
+
+  /* Navegación */
+  .nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .nav a {
+    margin: 8px 12px;
+    font-size: 14px;
+  }
+
+  /* Hero */
+  .hero {
+    padding: 60px 20px;
+  }
+
+  .hero h1 {
+    font-size: 26px;
+  }
+
+  .hero p {
+    font-size: 16px;
+  }
+
+  /* Secciones */
+  main {
+    padding: 20px;
+  }
+
+  .intro,
+  .page,
+  .about,
+  .contact {
+    padding: 50px 20px;
+  }
+
+  /* Botón */
+  .btn {
+    padding: 12px 24px;
+    font-size: 14px;
+  }
+
+  /* Footer */
+  .footer-minimal {
+    font-size: 12px;
+    padding: 12px 10px;
+  }
+}
