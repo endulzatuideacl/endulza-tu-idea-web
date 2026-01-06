@@ -157,3 +157,13 @@ main {
   gap: 18px;
 }
 
+.footer-minimal {
+  width: 100%;
+  background-color: #8e120b;
+  color: #ffffff;
+  text-align: center;
+  padding: 15px 10px;
+  font-size: 13px;
+  box-sizing: border-box;
+}
+
