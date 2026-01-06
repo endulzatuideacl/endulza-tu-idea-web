@@ -195,6 +195,16 @@ main {
    ========================= */
 @media (max-width: 768px) {
 
+  @media (max-width: 768px) {
+
+  .service-card {
+    background-color: #8e120b;
+    padding: 25px 20px;
+    border-radius: 8px;
+  }
+
+}
+
   /* Header */
   .header {
     flex-direction: column;
