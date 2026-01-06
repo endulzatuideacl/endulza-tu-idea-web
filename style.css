@@ -167,3 +167,25 @@ main {
   box-sizing: border-box;
 }
 
+.contact {
+  background-color: #9f2f2e;
+  color: #ffffff;
+  padding: 80px 40px;
+  text-align: center;
+}
+
+.contact h1 {
+  font-family: 'Playfair Display', serif;
+  margin-bottom: 20px;
+}
+
+.contact-intro {
+  max-width: 600px;
+  margin: 0 auto 30px;
+  font-size: 16px;
+}
+
+.contact-info {
+  margin-bottom: 30px;
+  font-size: 16px;
+}
