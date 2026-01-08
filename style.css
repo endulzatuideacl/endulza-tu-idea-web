@@ -290,3 +290,133 @@ main {
   }
 
 }
+
+.hero {
+  background-image: url("assets/images/hero.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.45);
+}
+
+.hero-overlay {
+  position: relative;
+  text-align: center;
+  color: white;
+  max-width: 800px;
+  padding: 20px;
+}
+
+.hero-overlay h1 {
+  font-size: 42px;
+  margin-bottom: 15px;
+}
+
+.hero-overlay p {
+  font-size: 18px;
+  margin-bottom: 25px;
+}
+
+.btn-hero {
+  background-color: #8e120b;
+  color: white;
+  padding: 14px 30px;
+  text-decoration: none;
+  border-radius: 30px;
+  font-weight: 600;
+}
+
+.carrusel {
+  width: 100%;
+  max-width: 1200px;
+  height: 380px;
+  margin: 60px auto;
+  overflow: hidden;
+  border-radius: 14px;
+}
+
+.carrusel-track {
+  display: flex;
+  height: 100%;
+  animation: carrusel 12s infinite;
+}
+
+.carrusel-track img {
+  min-width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@keyframes carrusel {
+  0% { transform: translateX(0); }
+  33% { transform: translateX(-100%); }
+  66% { transform: translateX(-200%); }
+  100% { transform: translateX(0); }
+}
+
+@media (max-width: 768px) {
+  .carrusel {
+    height: 240px;
+  }
+}
+
+.fade-in {
+  animation: fadeIn 1.2s ease forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.service-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+}
+
+.nav a {
+  position: relative;
+}
+
+.nav a::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  background-color: #ffffff;
+  bottom: -6px;
+  left: 0;
+  transition: width 0.3s ease;
+}
+
+.nav a:hover::after {
+  width: 100%;
+}
+
+.btn {
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+}
