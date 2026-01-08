@@ -1,9 +1,10 @@
 body {
   margin: 0;
-  font-family: Arial, sans-serif;
+  font-family: 'Poppins', sans-serif;
   background-color: #ffffff;
   color: #000000;
 }
+
 
 
 .header {
@@ -419,4 +420,19 @@ main {
 
 .btn:hover {
   transform: scale(1.05);
+}
+
+h1, h2, h3 {
+  font-family: 'Playfair Display', serif;
+  letter-spacing: 0.5px;
+}
+
+.hero h1 {
+  font-size: 42px;
+}
+
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 28px;
+  }
 }
